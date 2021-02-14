@@ -1,0 +1,104 @@
+h3 {
+    font-size: 1.2em;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:  rgb(248, 163, 48);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(248, 163, 48);
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(217, 137, 28);
+    color: #FAF0E2;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=date]{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 30%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.login-sign a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.login-sign a:hover{
+    text-decoration: underline;
+}
+
+.login-sign {
+    position: absolute;
+    right: 2%;
+    margin-top: 4.5%;
+    color:white
+}
+
+.botlog{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(248, 163, 48);
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botlog:hover{
+    background-color: rgb(217, 137, 28);
+    color: #FAF0E2;
+}
